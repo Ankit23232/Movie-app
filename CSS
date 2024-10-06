@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 100vh;
+}
+.container{
+    border:1px solid black;
+    justify-content: center;
+    margin: auto;
+    display:flex;
+    
+}
+#left-container{
+    width: 39vw;
+    height: 100vh;
+    float: left;
+    background-color: #0F2347;
+}
+#displayMovie img{
+    position: absolute;
+    left: 50px;
+    height: 600px;
+    width: 400px;
+    top: 70px;
+    
+}
+#right-container{
+    width: 74vw;
+    background-color: #0F2347;
+    
+}
+#review-container{
+    height: 65%;
+  background: #0F2347;
+  padding: 1px;
+  color: white;
+}
+#description-container{
+    
+    background-color: rgba(26, 31, 27, 0.775);
+    color: white;
+    width: 700px;
+    height: 20%;
+    bottom: 31px;
+    position: absolute;
+    border-radius: 12px;
+}
+.paragraph{
+    text-align: justify;
+  margin: 12px;
+}
+.searchbar{
+   margin-top: 20px;
+   text-align: center;
+ }
+ input[type="text"]{
+     border-style:ridge;
+     padding: 10px;
+     margin: 5px;
+     border-radius: 20px;
+     width:30vw;
+     font-size: 20px;
+     font-family: Georgia;
+ }
+ #searchBtn{
+     border-radius: 20px ;
+     font-size: large;
+     padding: 6px 15px;
+     color: white;
+     background-color: rgb(103, 156, 23);
+     transition: 0.3s ease-in-out;
+     height: 44px;
+     position: absolute;
+     top: 28px;
+ }
+ #searchBtn:hover{
+     background-color: green;
+     cursor: pointer;
+ }
+
+.title{
+    position: absolute;
+    top: 97px;
+}
+#title{
+    font-size: 50px;
+}
+.genre{
+    font-size: xx-large;
+}
+.date{
+    top: 68px;
+    right: 35px;
+    position: absolute;
+    font-size: 28px;
+}
+table{
+    top: 256px;
+    position: absolute;
+    font-size: x-large;
+}
